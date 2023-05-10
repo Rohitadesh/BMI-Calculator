@@ -6,10 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bmi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        
+    <div class="container flex-container">
+        <div class="title flex-title">
+            <h1 class="text">
+                BMI Calculator
+            </h1>
+        </div>
+        <div class="box">
+            <div class="sub-box flex-sub-box">
+                <h2 class="text">Height:CM </h2>
+            </div>
+            <div class="sub-box flex-sub-box">
+                <input type="number" class="height">
+            </div>
+            <div class="sub-box flex-sub-box"><h2 class="text">Weight:KG</h2></div>
+            <div class="sub-box flex-sub-box">
+                <input type="number" class="weight">
+            </div>
+            <div class="sub-box flex-sub-box">
+                <button class="button text-result">Calculate</button>
+            </div> 
+            <div class="result-box flex-sub-box">
+                <h3 class="text"></h3>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>
